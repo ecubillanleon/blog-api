@@ -24,7 +24,6 @@ post_detail_url = HyperlinkedIdentityField(
 	lookup_field = 'slug',
 )
 
-
 class PostDetailSerializer(ModelSerializer):
 	url = post_detail_url
 	user = UserDetailSerializer(read_only=True)
