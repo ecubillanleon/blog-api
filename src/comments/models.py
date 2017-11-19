@@ -38,6 +38,7 @@ class CommentManager(models.Manager):
                 return instance
         return None
 
+
 class Comment(models.Model):
     user        = models.ForeignKey(settings.AUTH_USER_MODEL, default=1)
     content_type = models.ForeignKey(ContentType, on_delete=models.CASCADE)

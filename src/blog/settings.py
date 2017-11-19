@@ -42,7 +42,6 @@ INSTALLED_APPS = [
     'markdown_deux',
     'pagedown',
     'rest_framework',
-
     # local apps
     'comments',
     'posts',
